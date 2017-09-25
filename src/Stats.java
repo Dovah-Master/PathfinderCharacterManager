@@ -3,7 +3,7 @@
  */
 import java.util.*;
 import java.io.*;
-
+//test commit
 public class Stats{
     private Scanner console = new Scanner(System.in);
     int[] stats = new int[6];
