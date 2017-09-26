@@ -3,7 +3,6 @@
  */
 import java.util.*;
 import java.io.*;
-//test commit
 public class Stats{
     private Scanner console = new Scanner(System.in);
     int[] stats = new int[6];
@@ -58,7 +57,7 @@ public class Stats{
                     if (response.toLowerCase().equals("yes")) {
                         loop2++;
                     }
-                    if (response.toLowerCase().equals("no")) {
+                    else if (response.toLowerCase().equals("no")) {
                         for (int i = 0; i < 6; i++){
                             stats[i] = 10;
                         }
@@ -73,6 +72,7 @@ public class Stats{
 
     //Sets an array to a given value and calculates how much abuility points are used up
     public int setScore(int stat, int points) throws FileNotFoundException {
+        points = points + pointCost(stats[stat]);
         System.out.println("What do you want to set your stat to? Pick any value between 7-18");
         int value = console.nextInt();
         if ((value >= 7) && (value <= 18)){

@@ -42,17 +42,17 @@ public class CharacterManager {
                 points = 10;
                 newAbil.newScore(points);
             }
-            if (response.toLowerCase().equals("standard")){
+            else if (response.toLowerCase().equals("standard")){
                 loop++;
                 points = 15;
                 newAbil.newScore(points);
             }
-            if (response.toLowerCase().equals("high")){
+            else if (response.toLowerCase().equals("high")){
                 loop++;
                 points = 20;
                 newAbil.newScore(points);
             }
-            if (response.toLowerCase().equals("epic")){
+            else if (response.toLowerCase().equals("epic")){
                 loop++;
                 points = 25;
                 newAbil.newScore(points);
@@ -80,7 +80,7 @@ public class CharacterManager {
                     System.out.println("Target found");
                 }
             }
-            if (loop != 0) {
+            if (loop == 0) {
                 System.out.println("Sorry I couldn't find any character with that name");
             }
         }
