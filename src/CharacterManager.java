@@ -16,6 +16,19 @@ public class CharacterManager {
         int newTS = (TS + 1);
         PrintStream newChar = new PrintStream(new File("Character"+newTS+".txt"));
         PrintStream totalSaveChange = new PrintStream(new File("totalSaves.txt"));
+
+        newName(newChar);
+        Stats newAbil = new Stats();
+        newStats(newAbil);
+
+        newChar.println("0");
+        for (int i = 0; i < 6; i++){
+            newChar.println(newAbil.getStat(i));
+        }
+        totalSaveChange.println(newTS);
+        TS = newTS;
+    }
+    public void newName(PrintStream newChar) throws FileNotFoundException {
         int loop = 1;
         while (loop == 1) {
             loop = 0;
@@ -31,9 +44,11 @@ public class CharacterManager {
                 newChar.println(name);
             }
         }
+    }
 
+    public void newStats(Stats newAbil) throws FileNotFoundException {
         int points = 0;
-        Stats newAbil = new Stats();
+        int loop = 0;
         while (loop == 0){
             System.out.print("Are you playing on low, standard, high, or epic fantacy? ");
             String response = console.next();
@@ -60,12 +75,6 @@ public class CharacterManager {
                 System.out.println("I'm sorry I didn't catch that, please use the keywords low, standard, high, or epic");
             }
         }
-        newChar.println("0");
-        for (int i = 0; i < 6; i++){
-            newChar.println(newAbil.getStat(i));
-        }
-        totalSaveChange.println(newTS);
-        TS = newTS;
     }
 
     // Loads up an already created character, currently can only comfirm that it found the character but not do anything with it
