@@ -28,6 +28,7 @@ public class CharacterManager {
         totalSaveChange.println(newTS);
         TS = newTS;
     }
+    // Assigns a name to new character and makes sure that there is no other character with that name
     public void newName(PrintStream newChar) throws FileNotFoundException {
         int loop = 1;
         while (loop == 1) {
@@ -45,7 +46,7 @@ public class CharacterManager {
             }
         }
     }
-
+    // Connects with the Stats Class and assigns the stats to the character
     public void newStats(Stats newAbil) throws FileNotFoundException {
         int points = 0;
         int loop = 0;
