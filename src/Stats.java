@@ -3,6 +3,7 @@
  */
 import java.util.*;
 import java.io.*;
+
 public class Stats{
     private Scanner console = new Scanner(System.in);
     int[] stats = new int[6];
@@ -12,9 +13,6 @@ public class Stats{
         }
     }
     //Lets people choose what they want their ability score set to
-   /*Current bugs: When the user sets their abuility scores it will show their scores and ask if that is what they want
-   * the code will enter an infinant loop that doesn't let them leave no matter if they say "yes" or "no"
-   */
     public void newScore(int points) throws FileNotFoundException {
         int newPoints = points;
         int loop = 0;
@@ -92,6 +90,7 @@ public class Stats{
     public int getStat(int val) {
         return stats[val];
     }
+    public void setStat(int val, int newVal) { stats[val] = newVal; }
 
 
     //Returns the point cost of a given value
