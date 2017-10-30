@@ -247,7 +247,65 @@ public class CharacterManager {
         }
     }
 
-    // Loads up an already created character, currently can only comfirm that it found the character but not do anything with it
+    //Allows users to select their class of choice
+    private String newClass(PrintStream newChar) {
+        System.out.println("Please select your class, your choices are:");
+        System.out.println("Barbarian, Bard, Cleric, Druid, Fighter, Monk, Paladin, Ranger, Rogue, Sorcerer, or Wizard");
+        int loop = 0;
+        while (loop == 0) {
+            String response = console.next();
+            if (response.toLowerCase().equals("barbarian")) {
+                loop++;
+                newChar.println("Barbarian");
+                return "barbarian";
+            } else if (response.toLowerCase().equals("bard")) {
+                loop++;
+                newChar.println("Bard");
+                return "bard";
+            } else if (response.toLowerCase().equals("cleric")) {
+                loop++;
+                newChar.println("Cleric");
+                return "cleric";
+            } else if (response.toLowerCase().equals("druid")) {
+                loop++;
+                newChar.println("Druid");
+                return "druid";
+            } else if (response.toLowerCase().equals("fighter")) {
+                loop++;
+                newChar.println("Fighter");
+                return "fighter";
+            } else if (response.toLowerCase().equals("monk")) {
+                loop++;
+                newChar.println("Monk");
+                return "monk";
+            } else if (response.toLowerCase().equals("paladin")) {
+                loop++;
+                newChar.println("Paladin");
+                return "paladin";
+            } else if (response.toLowerCase().equals("ranger")) {
+                loop++;
+                newChar.println("Ranger");
+                return "ranger";
+            } else if (response.toLowerCase().equals("rogue")) {
+                loop++;
+                newChar.println("Rogue");
+                return "rogue";
+            } else if (response.toLowerCase().equals("sorcerer")) {
+                loop++;
+                newChar.println("Sorcerer");
+                return "sorcerer";
+            } else if (response.toLowerCase().equals("wizard")) {
+                loop++;
+                newChar.println("Wizard");
+                return "wizard";
+            } else {
+                System.out.println("I'm sorry I didn't catch that, please enter the class you want");
+            }
+        }
+        return "";
+    }
+
+    // Loads up an already created character, currently can only confirm that it found the character but not do anything with it
     public void loadCharacter() throws FileNotFoundException {
         int loop = 0;
         while (loop == 0) {
