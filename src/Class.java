@@ -748,77 +748,77 @@ public class Class {
     }
 
     private void barbarianAbility(int level, Stats ability){
-        hitPoints = ((12  + ability.statBonus(ability.getStat(2))) + (6 + ability.statBonus(ability.getStat(2))) * (level-1));
+        hitPoints = (12  + ability.statBonus(ability.getStat(2))) + (6 + ability.statBonus(ability.getStat(2)) * (level-1));
         attackBonus = (level);
         fort = (level/2 + 2);
         ref = (level/3);
         will = (level/3);
     }
     private void bardAbility(int level, Stats ability){
-        hitPoints = ((8 + ability.statBonus(ability.getStat(2))) + (4 + ability.statBonus(ability.getStat(2))) * (level-1));
+        hitPoints = (8 + ability.statBonus(ability.getStat(2))) + (4 + ability.statBonus(ability.getStat(2)) * (level-1));
         attackBonus = (int)(level - (level/4.0));
         fort = (level/3);
         ref = (level/2 + 2);
         will = (level/2 + 2);
     }
     private void clericAbility(int level, Stats ability){
-        hitPoints = ((8 + ability.statBonus(ability.getStat(2))) + (4 + ability.statBonus(ability.getStat(2))) * (level-1));
+        hitPoints = (8 + ability.statBonus(ability.getStat(2))) + (4 + ability.statBonus(ability.getStat(2)) * (level-1));
         attackBonus = (int)(level - (level/4.0));
         fort = (level/2 + 2);
         ref = (level/3);
         will = (level/2 + 2);
     }
     private void druidAbility(int level, Stats ability){
-        hitPoints = ((8 + ability.statBonus(ability.getStat(2))) + (4 + ability.statBonus(ability.getStat(2))) * (level-1));
+        hitPoints = (8 + ability.statBonus(ability.getStat(2))) + (4 + ability.statBonus(ability.getStat(2)) * (level-1));
         attackBonus = (int)(level - (level/4.0));
         fort = (level/2 + 2);
         ref = (level/3);
         will = (level/2 + 2);
     }
     private void fighterAbility(int level, Stats ability){
-        hitPoints = ((10 + ability.statBonus(ability.getStat(2))) + (5 + ability.statBonus(ability.getStat(2))) * (level-1));
+        hitPoints = (10 + ability.statBonus(ability.getStat(2))) + (5 + ability.statBonus(ability.getStat(2)) * (level-1));
         attackBonus = (level);
         fort = (level/2 + 2);
         ref = (level/3);
         will = (level/3);
     }
     private void monkAbility(int level, Stats ability){
-        hitPoints = ((8 + ability.statBonus(ability.getStat(2))) + (4 + ability.statBonus(ability.getStat(2))) * (level-1));
+        hitPoints = (8 + ability.statBonus(ability.getStat(2))) + (4 + ability.statBonus(ability.getStat(2)) * (level-1));
         attackBonus = (int)(level - (level/4.0));
         fort = (level/2 + 2);
         ref = (level/2 + 2);
         will = (level/2 + 2);
     }
     private void paladinAbility(int level, Stats ability){
-        hitPoints = ((10 + ability.statBonus(ability.getStat(2))) + (5 + ability.statBonus(ability.getStat(2))) * (level-1));
+        hitPoints = (10 + ability.statBonus(ability.getStat(2))) + (5 + ability.statBonus(ability.getStat(2)) * (level-1));
         attackBonus = (level);
         fort = (level/2 + 2);
         ref = (level/3);
         will = (level/2 + 2);
     }
     private void rangerAbility(int level, Stats ability){
-        hitPoints = ((10 + ability.statBonus(ability.getStat(2))) + (5 + ability.statBonus(ability.getStat(2))) * (level-1));
+        hitPoints = (10 + ability.statBonus(ability.getStat(2))) + (5 + ability.statBonus(ability.getStat(2)) * (level-1));
         attackBonus = (level);
         fort = (level/2 + 2);
         ref = (level/2 + 2);
         will = (level/3);
     }
     private void rogueAbility(int level, Stats ability){
-        hitPoints = ((8 + ability.statBonus(ability.getStat(2))) + (4 + ability.statBonus(ability.getStat(2))) * (level-1));
+        hitPoints = (8 + ability.statBonus(ability.getStat(2))) + (4 + ability.statBonus(ability.getStat(2)) * (level-1));
         attackBonus = (int)(level - (level/4.0));
         fort = (level/3);
         ref = (level/2 + 2);
         will = (level/3);
     }
     private void sorcererAbility(int level, Stats ability){
-        hitPoints = ((6 + ability.statBonus(ability.getStat(2))) + (3 + ability.statBonus(ability.getStat(2))) * (level-1));
+        hitPoints = (6 + ability.statBonus(ability.getStat(2))) + (3 + ability.statBonus(ability.getStat(2)) * (level-1));
         attackBonus = (level/2);
         fort = (level/3);
         ref = (level/3);
         will = (level/2 + 2);
     }
     private void wizardAbility(int level, Stats ability){
-        hitPoints = ((6 + ability.statBonus(ability.getStat(2))) + (3 + ability.statBonus(ability.getStat(2))) * (level-1));
+        hitPoints = (6 + ability.statBonus(ability.getStat(2))) + (3 + ability.statBonus(ability.getStat(2)) * (level-1));
         attackBonus = (level/2);
         fort = (level/3);
         ref = (level/3);

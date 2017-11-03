@@ -87,6 +87,44 @@ public class Stats{
         }
     }
 
+    public int statBonus (int value){
+        if (value == 5) {
+            return -3;
+        }
+        else if ((value == 6) || (value == 7) ) {
+            return -2;
+        }
+        else if ((value == 8) || (value == 9) ) {
+            return -1;
+        }
+        else if ((value == 10) || (value == 11) ) {
+            return 0;
+        }
+        else if ((value == 12) || (value == 13) ) {
+            return 1;
+        }
+        else if ((value == 14) || (value == 15) ) {
+            return 2;
+        }
+        else if ((value == 16) || (value == 17) ) {
+            return 3;
+        }
+        else if ((value == 18) || (value == 19) ) {
+            return 4;
+        }
+        else if ((value == 20) || (value == 21) ) {
+            return 5;
+        }
+        else if ((value == 22) || (value == 23) ) {
+            return 6;
+        }
+        else if ((value == 24) || (value == 25) ) {
+            return 7;
+        } else {
+            return 0;
+        }
+    }
+
     public int getStat(int val) {
         return stats[val];
     }
