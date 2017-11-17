@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a03a8182-05a6-4180-84ce-c7fe5327951a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Pathfinder Character Manager/Pathfinder-Character-Manager/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Pathfinder Character Manager/Skill.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pathfinder Character Manager/CharacterManager.class" afterPath="$PROJECT_DIR$/out/production/Pathfinder Character Manager/CharacterManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pathfinder Character Manager/Stats.class" afterPath="$PROJECT_DIR$/out/production/Pathfinder Character Manager/Stats.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pathfinder Character Manager/Class.class" afterPath="$PROJECT_DIR$/out/production/Pathfinder Character Manager/Class.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CharacterManager.java" afterPath="$PROJECT_DIR$/src/CharacterManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Class.java" afterPath="$PROJECT_DIR$/src/Class.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/totalSaves.txt" afterPath="$PROJECT_DIR$/totalSaves.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CharacterManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CharacterManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CharacterManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-152">
-              <caret line="85" column="92" lean-forward="true" selection-start-line="85" selection-start-column="92" selection-end-line="85" selection-end-column="92" />
+            <state relative-caret-position="154">
+              <caret line="103" column="27" lean-forward="true" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -146,7 +141,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="totalSaves.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="totalSaves.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/totalSaves.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -187,9 +182,9 @@
         <option value="$PROJECT_DIR$/Character1.txt" />
         <option value="$PROJECT_DIR$/Character2.txt" />
         <option value="$PROJECT_DIR$/Buffer.txt" />
-        <option value="$PROJECT_DIR$/totalSaves.txt" />
         <option value="$PROJECT_DIR$/src/Class.java" />
         <option value="$PROJECT_DIR$/src/CharacterManager.java" />
+        <option value="$PROJECT_DIR$/totalSaves.txt" />
       </list>
     </option>
   </component>
@@ -530,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506970368966</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Attempts at bug fixing&#10;Makes changes to the Character manager and Class method">
+      <created>1510946889842</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1510946889842</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -609,7 +611,8 @@
     <MESSAGE value="This commit gets rid of the &quot;newScore Method not working properly&quot; issue within the code&#10;as well as getting rid of the glitch gave the user error messages when there was no error" />
     <MESSAGE value="Two New Methods&#10;Makes code easier to look at" />
     <MESSAGE value="Adds newRace Method &#10;Adds a new function in the Project to allow users to pick their race of choice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds newRace Method &#10;Adds a new function in the Project to allow users to pick their race of choice" />
+    <MESSAGE value="Attempts at bug fixing&#10;Makes changes to the Character manager and Class method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Attempts at bug fixing&#10;Makes changes to the Character manager and Class method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1119,6 +1122,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/CharacterManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="103" column="27" lean-forward="true" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#CharacterManager#0;class#CharacterManager#0" expanded="false" />
+            <element signature="method#newCharacter#0;class#CharacterManager#0" expanded="false" />
+            <element signature="method#newName#0;class#CharacterManager#0" expanded="false" />
+            <element signature="method#newStats#0;class#CharacterManager#0" expanded="false" />
+            <element signature="method#newRace#0;class#CharacterManager#0" expanded="false" />
+            <element signature="method#newClass#0;class#CharacterManager#0" expanded="false" />
+            <element signature="method#charFinder#0;class#CharacterManager#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/PCMMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1127,15 +1148,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/totalSaves.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClassSkills1.txt">
+    <entry file="file://$PROJECT_DIR$/TraitList1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1143,7 +1156,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TraitList1.txt">
+    <entry file="file://$PROJECT_DIR$/ClassSkills1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1159,21 +1172,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CharacterManager.java">
+    <entry file="file://$PROJECT_DIR$/totalSaves.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="85" column="92" lean-forward="true" selection-start-line="85" selection-start-column="92" selection-end-line="85" selection-end-column="92" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="method#CharacterManager#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#newCharacter#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#newName#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#newStats#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#newRace#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#newClass#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#charFinder#0;class#CharacterManager#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
