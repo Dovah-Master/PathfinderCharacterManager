@@ -132,79 +132,79 @@ public class Class {
     }
 
     private void barbarianTraits(int level, PrintStream traitList){
-        if (level == 1) {
+        if (level >= 1) {
             traitList.println("Fast movement");
             traitList.println("Rage");
 
-        } else if (level == 2) {
+        } if (level >= 2) {
             traitList.println("1st Rage power");
             traitList.println("Uncanny dodge");
 
-        } else if (level == 3) {
+        } if (level >= 3) {
             traitList.println("Trap sense +1");
 
-        } else if (level == 4) {
+        } if (level >= 4) {
             traitList.println("2nd Rage power");
 
-        } else if (level == 5) {
+        } if (level >= 5) {
             traitList.println("Improved uncanny dodge");
 
-        } else if (level == 6) {
+        } if (level >= 6) {
             traitList.println("3rd Rage power");
             traitList.println("Trap sense +2");
 
-        } else if (level == 7) {
+        } if (level >= 7) {
             traitList.println("Damage reduction 1/-");
 
-        } else if (level == 8) {
+        } if (level >= 8) {
             traitList.println("4th Rage power");
 
-        } else if (level == 9) {
+        } if (level >= 9) {
             traitList.println("Trap sense +3");
 
-        } else if (level == 10) {
+        } if (level >= 10) {
             traitList.println("Damage reduction 2/-");
             traitList.println("5th Rage power");
 
-        } else if (level == 11) {
+        } if (level >= 11) {
             traitList.println("Greater rage");
 
-        } else if (level == 12) {
+        } if (level >= 12) {
             traitList.println("6th Rage power");
             traitList.println("Trap sense +4");
 
-        } else if (level == 13) {
+        } if (level >= 13) {
             traitList.println("Damage reduction 3/-");
 
-        } else if (level == 14) {
+        } if (level >= 14) {
             traitList.println("Indomitable will");
             traitList.println("7th Rage power");
 
-        } else if (level == 15) {
+        } if (level >= 15) {
             traitList.println("Trap sense +5");
 
-        } else if (level == 16) {
+        } if (level >= 16) {
             traitList.println("Damage reduction 4/-");
             traitList.println("8th Rage power");
 
-        } else if (level == 17) {
+        } if (level >= 17) {
             traitList.println("Tireless rage");
 
-        } else if (level == 18) {
+        } if (level >= 18) {
             traitList.println("9th Rage power");
             traitList.println("Trap sense +6");
 
-        } else if (level == 19) {
+        } if (level >= 19) {
             traitList.println("Damage reduction 5/-");
 
-        } else if (level == 20) {
+        } if (level >= 20) {
             traitList.println("Mighty rage");
             traitList.println("10th Rage power");
 
         }
     }
     private void bardTraits(int level, PrintStream traitList){
-        if (level == 1) {
+        if (level >= 1) {
             traitList.println("Bardic knowledge");
             traitList.println("Bardic performances");
             traitList.println("Cantrips");
@@ -212,100 +212,100 @@ public class Class {
             traitList.println("Distraction");
             traitList.println("Fascinate");
             traitList.println("Inspire courage +1");
-        } else if (level == 2) {
+        } if (level >= 2) {
             traitList.println("Versatile performance");
             traitList.println("Well-versed");
-        } else if (level == 3) {
+        } if (level >= 3) {
             traitList.println("Inspire competence");
-        } else if (level == 4) {
+        } if (level >= 4) {
             traitList.print("");
 
-        } else if (level == 5) {
+        } if (level >= 5) {
             traitList.println("Inspire courage +2");
             traitList.println("Lore master 1/day");
-        } else if (level == 6) {
+        } if (level >= 6) {
             traitList.println("Suggestion");
             traitList.println("2nd Versatile performance");
-        } else if (level == 7) {
+        } if (level >= 7) {
             traitList.println("Inspire competence +3");
-        } else if (level == 8) {
+        } if (level >= 8) {
             traitList.println("Dirge of doom");
-        } else if (level == 9) {
+        } if (level >= 9) {
             traitList.println("Inspire greatness");
-        } else if (level == 10) {
+        } if (level >= 10) {
             traitList.println("Jack of all trades");
             traitList.println("3rd Versatile performance");
-        } else if (level == 11) {
+        } if (level >= 11) {
             traitList.println("Inspire competence +4");
             traitList.println("Inspire courage +3");
             traitList.println("Lore master 2/day");
-        } else if (level == 12) {
+        } if (level >= 12) {
             traitList.println("Soothing performance");
-        } else if (level == 13) {
+        } if (level >= 13) {
             traitList.print("");
-        } else if (level == 14) {
+        } if (level >= 14) {
             traitList.println("Frightening tune");
             traitList.println("4th Versatile performance");
-        } else if (level == 15) {
+        } if (level >= 15) {
             traitList.println("Inspire competence +5");
             traitList.println("Inspire heroics");
-        } else if (level == 16) {
+        } if (level >= 16) {
             traitList.print("");
-        } else if (level == 17) {
+        } if (level >= 17) {
             traitList.println("Inspire courage +4");
             traitList.println("Lore master 3/day");
-        } else if (level == 18) {
+        } if (level >= 18) {
             traitList.println("Mass suggestion");
             traitList.println("5th Versatile performance");
-        } else if (level == 19) {
+        } if (level >= 19) {
             traitList.println("Inspire competence +6");
-        } else if (level == 20) {
+        } if (level >= 20) {
             traitList.println("Deadly performance");
         }
     }
     private void clericTraits(int level, PrintStream traitList){
-        if (level == 1) {
+        if (level >= 1) {
             traitList.println("Aura");
             traitList.println("Chanel energy 1d6");
             traitList.println("Domains");
             traitList.println("Orisons");
-        } else if (level == 2) {
+        } if (level >= 2) {
             traitList.print("");
-        } else if (level == 3) {
+        } if (level >= 3) {
             traitList.println("Channel energy 2d6");
-        } else if (level == 4) {
+        } if (level >= 4) {
             traitList.print("");
-        } else if (level == 5) {
+        } if (level >= 5) {
             traitList.println("Channel energy 3d6");
-        } else if (level == 6) {
+        } if (level >= 6) {
             traitList.print("");
-        } else if (level == 7) {
+        } if (level >= 7) {
             traitList.println("Channel energy 4d6");
-        } else if (level == 8) {
+        } if (level >= 8) {
             traitList.print("");
-        } else if (level == 9) {
+        } if (level >= 9) {
             traitList.println("Channel energy 5d6");
-        } else if (level == 10) {
+        } if (level >= 10) {
             traitList.print("");
-        } else if (level == 11) {
+        } if (level >= 11) {
             traitList.println("Channel energy 6d6");
-        } else if (level == 12) {
+        } if (level >= 12) {
             traitList.print("");
-        } else if (level == 13) {
+        } if (level >= 13) {
             traitList.println("Channel energy 7d6");
-        } else if (level == 14) {
+        } if (level >= 14) {
             traitList.print("");
-        } else if (level == 15) {
+        } if (level >= 15) {
             traitList.println("Channel energy 8d6");
-        } else if (level == 16) {
+        } if (level >= 16) {
             traitList.print("");
-        } else if (level == 17) {
+        } if (level >= 17) {
             traitList.println("Channel energy 9d6");
-        } else if (level == 18) {
+        } if (level >= 18) {
             traitList.print("");
-        } else if (level == 19) {
+        } if (level >= 19) {
             traitList.println("Channel energy 10d6");
-        } else if (level == 20) {
+        } if (level >= 20) {
             traitList.print("");
         }
     }
@@ -315,92 +315,92 @@ public class Class {
             traitList.println("Nature sense");
             traitList.println("Orison");
             traitList.println("Wild empathy");
-        } else if (level == 2) {
+        } if (level >= 2) {
             traitList.println("Woodland stride");
-        } else if (level == 3) {
+        } if (level >= 3) {
             traitList.println("Trackless step");
-        } else if (level == 4) {
+        } if (level >= 4) {
             traitList.println("Resist nature's lure");
             traitList.println("Wild shape 1/day");
-        } else if (level == 5) {
+        } if (level >= 5) {
             traitList.print("");
-        } else if (level == 6) {
+        } if (level >= 6) {
             traitList.println("Wild shape 2/day");
-        } else if (level == 7) {
+        } if (level >= 7) {
             traitList.print("");
-        } else if (level == 8) {
+        } if (level >= 8) {
             traitList.println("Wild shape 3/day");
-        } else if (level == 9) {
+        } if (level >= 9) {
             traitList.println("Venom immunity");
-        } else if (level == 10) {
+        } if (level >= 10) {
             traitList.println("Wild shape 4/day");
-        } else if (level == 11) {
+        } if (level >= 11) {
             traitList.print("");
-        } else if (level == 12) {
+        } if (level >= 12) {
             traitList.println("Wild shape 5/day");
-        } else if (level == 13) {
+        } if (level >= 13) {
             traitList.println("A thousand faces");
-        } else if (level == 14) {
+        } if (level >= 14) {
             traitList.println("Wild shape 6/day");
-        } else if (level == 15) {
+        } if (level >= 15) {
             traitList.println("Timeless body");
-        } else if (level == 16) {
+        } if (level >= 16) {
             traitList.println("Wild shape 7/day");
-        } else if (level == 17) {
+        } if (level >= 17) {
             traitList.print("");
-        } else if (level == 18) {
+        } if (level >= 18) {
             traitList.println("Wild shape 8/day");
-        } else if (level == 19) {
+        } if (level >= 19) {
             traitList.print("");
-        } else if (level == 20) {
+        } if (level >= 20) {
             traitList.println("Wild shape (at will)");
         }
     }
     private void fighterTraits(int level, PrintStream traitList){
         if (level == 1) {
             traitList.println("1st Bonus feat");
-        } else if (level == 2) {
+        } if (level >= 2) {
             traitList.println("2nd Bonus feat");
             traitList.println("bravery +1");
-        } else if (level == 3) {
+        } if (level >= 3) {
             traitList.println("Armor training 1");
-        } else if (level == 4) {
+        } if (level >= 4) {
             traitList.println("3rd Bonus feat");
-        } else if (level == 5) {
+        } if (level >= 5) {
             traitList.println("Weapon training 1");
-        } else if (level == 6) {
+        } if (level >= 6) {
             traitList.println("4th Bonus feat");
             traitList.println("bravery +2");
-        } else if (level == 7) {
+        } if (level >= 7) {
             traitList.println("Armor training 2");
-        } else if (level == 8) {
+        } if (level >= 8) {
             traitList.println("5th Bonus feat");
-        } else if (level == 9) {
+        } if (level >= 9) {
             traitList.println("Weapon training 2");
-        } else if (level == 10) {
+        } if (level >= 10) {
             traitList.println("6th Bonus feat");
             traitList.println("bravery +3");
-        } else if (level == 11) {
+        } if (level >= 11) {
             traitList.println("Armor training 3");
-        } else if (level == 12) {
+        } if (level >= 12) {
             traitList.println("7th Bonus feat");
-        } else if (level == 13) {
+        } if (level >= 13) {
             traitList.println("Weapon training 3");
-        } else if (level == 14) {
+        } if (level >= 14) {
             traitList.println("8th Bonus feat");
             traitList.println("bravery +4");
-        } else if (level == 15) {
+        } if (level >= 15) {
             traitList.println("Armor training 4");
-        } else if (level == 16) {
+        } if (level >= 16) {
             traitList.println("9th Bonus feat");
-        } else if (level == 17) {
+        } if (level >= 17) {
             traitList.println("Weapon training 4");
-        } else if (level == 18) {
+        } if (level >= 18) {
             traitList.println("10th Bonus feat");
             traitList.println("bravery +5");
-        } else if (level == 19) {
+        } if (level >= 19) {
             traitList.println("Armor mastery");
-        } else if (level == 20) {
+        } if (level >= 20) {
             traitList.println("11th Bonus feat");
             traitList.println("Weapon mastery");
         }
@@ -411,84 +411,84 @@ public class Class {
             traitList.println("flurry of blows (-1/-1)");
             traitList.println("stunning fist");
             traitList.println("unarmed strike (1d6)");
-        } else if (level == 2) {
+        } if (level >= 2) {
             traitList.println("2nd Bonus feat");
             traitList.println("Evasion");
             traitList.println("flurry of blows (+0/+0)");
-        } else if (level == 3) {
+        } if (level >= 3) {
             traitList.println("Maneuver training");
             traitList.println("Still mind");
             traitList.println("Fast Movement +10ft");
             traitList.println("flurry of blows (+1/+1)");
-        } else if (level == 4) {
+        } if (level >= 4) {
             traitList.println("Slow fall 20ft");
             traitList.println("Ki pool (magic)");
             traitList.println("flurry of blows (+2/+2)");
             traitList.println("unarmed strike (1d8)");
-        } else if (level == 5) {
+        } if (level >= 5) {
             traitList.println("High jump");
             traitList.println("Purity of body");
             traitList.println("flurry of blows (+3/+3)");
-        } else if (level == 6) {
+        } if (level >= 6) {
             traitList.println("3rd Bonus feat");
             traitList.println("Slow fall 30ft");
             traitList.println("Fast Movement +20ft");
             traitList.println("flurry of blows (+4/+4/–1)");
-        } else if (level == 7) {
+        } if (level >= 7) {
             traitList.println("wholeness of body");
             traitList.println("Ki pool (cold iron/silver)");
             traitList.println("flurry of blows (+5/+5/+0)");
-        } else if (level == 8) {
+        } if (level >= 8) {
             traitList.println("Slow fall 40ft");
             traitList.println("flurry of blows (+6/+6/+1/+1)");
             traitList.println("unarmed strike (1d10)");
-        } else if (level == 9) {
+        } if (level >= 9) {
             traitList.println("Improved evasion");
             traitList.println("Fast Movement +30ft");
             traitList.println("flurry of blows (+7/+7/+2/+2)");
-        } else if (level == 10) {
+        } if (level >= 10) {
             traitList.println("4th Bonus feat");
             traitList.println("Slow fall 50ft");
             traitList.println("Ki pool (lawful)");
             traitList.println("flurry of blows (+8/+8/+3/+3)");
-        } else if (level == 11) {
+        } if (level >= 11) {
             traitList.println("Diamond body");
             traitList.println("flurry of blows (+9/+9/+4/+4/–1)");
-        } else if (level == 12) {
+        } if (level >= 12) {
             traitList.println("Abundant step");
             traitList.println("Slow fall 60ft");
             traitList.println("Fast Movement +40ft");
             traitList.println("flurry of blows (+10/+10/+5/+5/+0)");
             traitList.println("unarmed strike (2d6)");
-        } else if (level == 13) {
+        } if (level >= 13) {
             traitList.println("Diamond soul");
             traitList.println("flurry of blows (+11/+11/+6/+6/+1)");
-        } else if (level == 14) {
+        } if (level >= 14) {
             traitList.println("5th Bonus feat");
             traitList.println("Slow fall 70ft");
             traitList.println("flurry of blows (+12/+12/+7/+7/+2)");
-        } else if (level == 15) {
+        } if (level >= 15) {
             traitList.println("Quivering palm");
             traitList.println("Fast Movement +50ft");
             traitList.println("flurry of blows (+13/+13/+8/+8/+3/+3)");
-        } else if (level == 16) {
+        } if (level >= 16) {
             traitList.println("Slow fall 80ft");
             traitList.println("Ki pool (adamantine)");
             traitList.println("flurry of blows (+14/+14/+9/+9/+4/+4/–1)");
             traitList.println("unarmed strike (2d8)");
-        } else if (level == 17) {
+        } if (level >= 17) {
             traitList.println("Timeless body");
             traitList.println("Tongue of the sun and moon");
             traitList.println("flurry of blows (+15/+15/+10/+10/+5/+5/+0)");
-        } else if (level == 18) {
+        } if (level >= 18) {
             traitList.println("6th Bonus feat");
             traitList.println("Slow fall 90ft");
             traitList.println("Fast Movement +60ft");
             traitList.println("flurry of blows (+16/+16/+11/+11/+6/+6/+1)");
-        } else if (level == 19) {
+        } if (level >= 19) {
             traitList.println("Empty body");
             traitList.println("flurry of blows (+17/+17/+12/+12/+7/+7/+2)");
-        } else if (level == 20) {
+        } if (level >= 20) {
             traitList.println("Perfect self");
             traitList.println("Slow fall any distance");
             traitList.println("flurry of blows (+18/+18/+13/+13/+8/+8/+3)");
@@ -500,47 +500,47 @@ public class Class {
             traitList.println("Aura of good");
             traitList.println("Detect evil");
             traitList.println("Smite evil 1/day");
-        } else if (level == 2) {
+        } if (level >= 2) {
             traitList.println("Divine grace");
             traitList.println("Lay on hands");
-        } else if (level == 3) {
+        } if (level >= 3) {
             traitList.println("Aura of courage");
             traitList.println("Divine health");
             traitList.println("1st Mercy");
-        } else if (level == 4) {
+        } if (level >= 4) {
             traitList.println("Channel positive energy");
             traitList.println("Smite evil 2/day");
-        } else if (level == 5) {
+        } if (level >= 5) {
             traitList.println("Divine bond");
-        } else if (level == 6) {
+        } if (level >= 6) {
             traitList.println("2nd Mercy");
-        } else if (level == 7) {
+        } if (level >= 7) {
             traitList.println("Smite evil 3/day");
-        } else if (level == 8) {
+        } if (level >= 8) {
             traitList.println("Aura of resolve");
-        } else if (level == 9) {
+        } if (level >= 9) {
             traitList.println("3rd Mercy");
-        } else if (level == 10) {
+        } if (level >= 10) {
             traitList.println("Smite evil 4/day");
-        } else if (level == 11) {
+        } if (level >= 11) {
             traitList.println("Aura of justice");
-        } else if (level == 12) {
+        } if (level >= 12) {
             traitList.println("4th Mercy");
-        } else if (level == 13) {
+        } if (level >= 13) {
             traitList.println("Smite evil 5/day");
-        } else if (level == 14) {
+        } if (level >= 14) {
             traitList.println("Aura of faith");
-        } else if (level == 15) {
+        } if (level >= 15) {
             traitList.println("5th Mercy");
-        } else if (level == 16) {
+        } if (level >= 16) {
             traitList.println("Smite evil 6/day");
-        } else if (level == 17) {
+        } if (level >= 17) {
             traitList.println("Aura of righteousness");
-        } else if (level == 18) {
+        } if (level >= 18) {
             traitList.println("6th Mercy");
-        } else if (level == 19) {
+        } if (level >= 19) {
             traitList.println("Smite evil 7/day");
-        } else if (level == 20) {
+        } if (level >= 20) {
             traitList.println("Holy champion");
         }
     }
@@ -549,47 +549,47 @@ public class Class {
             traitList.println("1st Favored enemy");
             traitList.println("Track");
             traitList.println("Wild empathy");
-        } else if (level == 2) {
+        } if (level >= 2) {
             traitList.println("1st Combat style feat");
-        } else if (level == 3) {
+        } if (level >= 3) {
             traitList.println("Endurance");
             traitList.println("1st Favored terrain");
-        } else if (level == 4) {
+        } if (level >= 4) {
             traitList.println("Hunter's bond");
-        } else if (level == 5) {
+        } if (level >= 5) {
             traitList.println("2nd Favored enemy");
-        } else if (level == 6) {
+        } if (level >= 6) {
             traitList.println("2nd Combat style feat");
-        } else if (level == 7) {
+        } if (level >= 7) {
             traitList.println("Woodland stride");
-        } else if (level == 8) {
+        } if (level >= 8) {
             traitList.println("Swift tracker");
             traitList.println("2nd Favored terrain");
-        } else if (level == 9) {
+        } if (level >= 9) {
             traitList.println("Evasion");
-        } else if (level == 10) {
+        } if (level >= 10) {
             traitList.println("3rd Combat style feat");
             traitList.println("3rd Favored enemy");
-        } else if (level == 11) {
+        } if (level >= 11) {
             traitList.println("Quarry");
-        } else if (level == 12) {
+        } if (level >= 12) {
             traitList.println("Camouflage");
-        } else if (level == 13) {
+        } if (level >= 13) {
             traitList.println("3rd Favored terrain");
-        } else if (level == 14) {
+        } if (level >= 14) {
             traitList.println("4th Combat style feat");
-        } else if (level == 15) {
+        } if (level >= 15) {
             traitList.println("4th Favored enemy");
-        } else if (level == 16) {
+        } if (level >= 16) {
             traitList.println("Improved evasion");
-        } else if (level == 17) {
+        } if (level >= 17) {
             traitList.println("Hide in plain sight");
-        } else if (level == 18) {
+        } if (level >= 18) {
             traitList.println("5th Combat style feat");
             traitList.println("4th Favored terrain");
-        } else if (level == 19) {
+        } if (level >= 19) {
             traitList.println("Improved quarry");
-        } else if (level == 20) {
+        } if (level >= 20) {
             traitList.println("Master hunter");
             traitList.println("5th Favored enemy");
         }
@@ -598,53 +598,53 @@ public class Class {
         if (level == 1) {
             traitList.println("Trap finding");
             traitList.println("Sneak attack +1d6");
-        } else if (level == 2) {
+        } if (level >= 2) {
             traitList.println("Evasion");
             traitList.println("1st Rogue talent");
-        } else if (level == 3) {
+        } if (level >= 3) {
             traitList.println("Trap sense +1");
             traitList.println("Sneak attack +2d6");
-        } else if (level == 4) {
+        } if (level >= 4) {
             traitList.println("Uncanny dodge");
             traitList.println("2nd Rogue talent");
-        } else if (level == 5) {
+        } if (level >= 5) {
             traitList.println("Sneak attack +3d6");
-        } else if (level == 6) {
+        } if (level >= 6) {
             traitList.println("Trap sense +2");
             traitList.println("3rd Rogue talent");
-        } else if (level == 7) {
+        } if (level >= 7) {
             traitList.println("Sneak attack +4d6");
-        } else if (level == 8) {
+        } if (level >= 8) {
             traitList.println("Improved uncanny dodge");
             traitList.println("4th Rogue talent");
-        } else if (level == 9) {
+        } if (level >= 9) {
             traitList.println("Trap sense +3");
             traitList.println("Sneak attack +5d6");
-        } else if (level == 10) {
+        } if (level >= 10) {
             traitList.println("Advanced talents");
             traitList.println("5th Rogue talent");
-        } else if (level == 11) {
+        } if (level >= 11) {
             traitList.println("Sneak attack +6d6");
-        } else if (level == 12) {
+        } if (level >= 12) {
             traitList.println("Trap sense +4");
             traitList.println("6th Rogue talent");
-        } else if (level == 13) {
+        } if (level >= 13) {
             traitList.println("Sneak attack +7d6");
-        } else if (level == 14) {
+        } if (level >= 14) {
             traitList.println("7th Rogue talent");
-        } else if (level == 15) {
+        } if (level >= 15) {
             traitList.println("Trap sense +5");
             traitList.println("Sneak attack +8d6");
-        } else if (level == 16) {
+        } if (level >= 16) {
             traitList.println("8th Rogue talent");
-        } else if (level == 17) {
+        } if (level >= 17) {
             traitList.println("Sneak attack +9d6");
-        } else if (level == 18) {
+        } if (level >= 18) {
             traitList.println("Trap sense +6");
             traitList.println("9th Rogue talent");
-        } else if (level == 19) {
+        } if (level >= 19) {
             traitList.println("Sneak attack +10d6");
-        } else if (level == 20) {
+        } if (level >= 20) {
             traitList.println("Master strike");
             traitList.println("10th Rogue talent");
         }
@@ -654,49 +654,49 @@ public class Class {
             traitList.println("Cantrips");
             traitList.println("Eschew materials");
             traitList.println("1st Bloodline power");
-        } else if (level == 2) {
+        } if (level >= 2) {
             traitList.print("");
-        } else if (level == 3) {
+        } if (level >= 3) {
             traitList.println("2nd Bloodline power");
             traitList.println("1st Bloodline spell");
-        } else if (level == 4) {
+        } if (level >= 4) {
             traitList.print("");
-        } else if (level == 5) {
+        } if (level >= 5) {
             traitList.println("2nd Bloodline spell");
-        } else if (level == 6) {
+        } if (level >= 6) {
             traitList.print("");
-        } else if (level == 7) {
+        } if (level >= 7) {
             traitList.println("1st Bloodline feat");
             traitList.println("3rd Bloodline spell");
-        } else if (level == 8) {
+        } if (level >= 8) {
             traitList.print("");
-        } else if (level == 9) {
+        } if (level >= 9) {
             traitList.println("3rd Bloodline power");
             traitList.println("4th Bloodline spell");
-        } else if (level == 10) {
+        } if (level >= 10) {
             traitList.print("");
-        } else if (level == 11) {
+        } if (level >= 11) {
             traitList.println("5th Bloodline spell");
-        } else if (level == 12) {
+        } if (level >= 12) {
             traitList.print("");
-        } else if (level == 13) {
+        } if (level >= 13) {
             traitList.println("2nd Bloodline feat");
             traitList.println("6th Bloodline spell");
-        } else if (level == 14) {
+        } if (level >= 14) {
             traitList.print("");
-        } else if (level == 15) {
+        } if (level >= 15) {
             traitList.println("4th Bloodline power");
             traitList.println("7th Bloodline spell");
-        } else if (level == 16) {
+        } if (level >= 16) {
             traitList.print("");
-        } else if (level == 17) {
+        } if (level >= 17) {
             traitList.println("8th Bloodline spell");
-        } else if (level == 18) {
+        } if (level >= 18) {
             traitList.print("");
-        } else if (level == 19) {
+        } if (level >= 19) {
             traitList.println("3rd Bloodline feat");
             traitList.println("9th Bloodline spell");
-        } else if (level == 20) {
+        } if (level >= 20) {
             traitList.println("5th Bloodline power");
         }
     }
@@ -706,43 +706,43 @@ public class Class {
             traitList.println("Arcane school");
             traitList.println("Cantrips");
             traitList.println("Scribe Scroll");
-        } else if (level == 2) {
+        } if (level >= 2) {
             traitList.print("");
-        } else if (level == 3) {
+        } if (level >= 3) {
             traitList.print("");
-        } else if (level == 4) {
+        } if (level >= 4) {
             traitList.print("");
-        } else if (level == 5) {
+        } if (level >= 5) {
             traitList.println("1st Bonus feat");
-        } else if (level == 6) {
+        } if (level >= 6) {
             traitList.print("");
-        } else if (level == 7) {
+        } if (level >= 7) {
             traitList.print("");
-        } else if (level == 8) {
+        } if (level >= 8) {
             traitList.print("");
-        } else if (level == 9) {
+        } if (level >= 9) {
             traitList.print("");
-        } else if (level == 10) {
+        } if (level >= 10) {
             traitList.println("2nd Bonus feat");
-        } else if (level == 11) {
+        } if (level >= 11) {
             traitList.print("");
-        } else if (level == 12) {
+        } if (level >= 12) {
             traitList.print("");
-        } else if (level == 13) {
+        } if (level >= 13) {
             traitList.print("");
-        } else if (level == 14) {
+        } if (level >= 14) {
             traitList.print("");
-        } else if (level == 15) {
+        } if (level >= 15) {
             traitList.println("3rd Bonus feat");
-        } else if (level == 16) {
+        } if (level >= 16) {
             traitList.print("");
-        } else if (level == 17) {
+        } if (level >= 17) {
             traitList.print("");
-        } else if (level == 18) {
+        } if (level >= 18) {
             traitList.print("");
-        } else if (level == 19) {
+        } if (level >= 19) {
             traitList.print("");
-        } else if (level == 20) {
+        } if (level >= 20) {
             traitList.println("4th Bonus feat");
         }
     }
