@@ -454,7 +454,14 @@ public class CharacterManager {
                 }
             }
             if (loop == 0) {
-                System.out.println("Sorry I couldn't find any character with that name");
+                System.out.println("Sorry I couldn't find any character with that name. Would you like to search again?");
+                String answerTemp = console.nextLine();
+                String answer = answerTemp.toLowerCase();
+                if (answer.charAt(0) == 'y') {
+                    loadCharacter();
+                } else {
+                    PCMMain.saveOrLoad();
+                }
             }
         }
     }
