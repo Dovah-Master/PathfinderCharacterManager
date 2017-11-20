@@ -100,7 +100,7 @@ public class CharacterManager {
                 } else if (response.toUpperCase().equals("WIS")) {
                     loop++;
                     midStats[4] = ( midStats[4] + 1 );
-                } else if (response.toUpperCase().equals("CHA")) {
+                } else if (response.toUpperCase().equals("CH")) {
                     loop++;
                     midStats[5] = ( midStats[5] + 1 );
                 } else {
@@ -115,11 +115,11 @@ public class CharacterManager {
         for (int i = 0; i < 6; i++){
             charLevelUp.println(midStats[i]);
         }
-        System.out.println("Your character has been successfully leveled up!");
+        System.out.println("Your character has been successfully leveled up! Currently level " + level);
         System.out.println("Now do you want to view your character, level up again or exit the program? (Please use keywords view, level or exit)");
-
     }
 
+    // this is what should be printed when asked to see character
     private void charSheet(Scanner currentChar, PrintStream traitList, PrintStream classSkills, int fileNum) throws FileNotFoundException {
         System.out.println("Character Name: " + currentChar.nextLine());
         int level = currentChar.nextInt();
