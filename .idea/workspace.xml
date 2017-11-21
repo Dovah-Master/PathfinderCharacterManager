@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a03a8182-05a6-4180-84ce-c7fe5327951a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CharacterManager.java" afterPath="$PROJECT_DIR$/src/CharacterManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Class.java" afterPath="$PROJECT_DIR$/src/Class.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Stats.java" afterPath="$PROJECT_DIR$/src/Stats.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pathfinder Character Manager/Class.class" afterPath="$PROJECT_DIR$/out/production/Pathfinder Character Manager/Class.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/totalSaves.txt" afterPath="$PROJECT_DIR$/totalSaves.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,61 +17,38 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CharacterManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PCMMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PCMMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CharacterManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CharacterManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="139" column="126" lean-forward="false" selection-start-line="139" selection-start-column="126" selection-end-line="139" selection-end-column="126" />
+            <state relative-caret-position="154">
+              <caret line="103" column="27" lean-forward="true" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
                 <element signature="method#CharacterManager#0;class#CharacterManager#0" expanded="false" />
                 <element signature="method#newCharacter#0;class#CharacterManager#0" expanded="false" />
-                <element signature="method#managementHub#0;class#CharacterManager#0" expanded="false" />
-                <element signature="method#levelUp#0;class#CharacterManager#0" expanded="false" />
                 <element signature="method#newName#0;class#CharacterManager#0" expanded="false" />
                 <element signature="method#newStats#0;class#CharacterManager#0" expanded="false" />
                 <element signature="method#newRace#0;class#CharacterManager#0" expanded="false" />
                 <element signature="method#newClass#0;class#CharacterManager#0" expanded="false" />
-                <element signature="method#loadCharacter#0;class#CharacterManager#0" expanded="false" />
                 <element signature="method#charFinder#0;class#CharacterManager#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TraitList2.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TraitList2.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Character2.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Character2.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Buffer.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Buffer.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TraitList1.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TraitList1.txt">
+      <file leaf-file-name="Character1.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Character1.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -91,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Character1.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Character1.txt">
+      <file leaf-file-name="TraitList1.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TraitList1.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -112,6 +88,7 @@
                 <element signature="method#Stats#0;class#Stats#0" expanded="false" />
                 <element signature="method#newScore#0;class#Stats#0" expanded="false" />
                 <element signature="method#setScore#0;class#Stats#0" expanded="false" />
+                <element signature="method#statBonus#0;class#Stats#0" expanded="false" />
                 <element signature="method#pointCost#0;class#Stats#0" expanded="false" />
               </folding>
             </state>
@@ -121,8 +98,8 @@
       <file leaf-file-name="Class.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Class.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="770" column="55" lean-forward="false" selection-start-line="770" selection-start-column="55" selection-end-line="770" selection-end-column="55" />
+            <state relative-caret-position="459">
+              <caret line="651" column="65" lean-forward="false" selection-start-line="651" selection-start-column="65" selection-end-line="651" selection-end-column="65" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="method#classHub#0;class#Class#0" expanded="false" />
@@ -164,11 +141,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Skill.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Skill.java">
+      <file leaf-file-name="totalSaves.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/totalSaves.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+            <state relative-caret-position="0">
+              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -198,12 +175,16 @@
         <option value="$PROJECT_DIR$/Final-Project-AP-CS-2016/PCMMain.java" />
         <option value="$PROJECT_DIR$/Character3.txt" />
         <option value="$PROJECT_DIR$/src/Race.java" />
-        <option value="$PROJECT_DIR$/Character1.txt" />
         <option value="$PROJECT_DIR$/src/Stats.java" />
         <option value="$PROJECT_DIR$/src/Skill.java" />
-        <option value="$PROJECT_DIR$/totalSaves.txt" />
+        <option value="$PROJECT_DIR$/TraitList1.txt" />
+        <option value="$PROJECT_DIR$/ClassSkills1.txt" />
+        <option value="$PROJECT_DIR$/Character1.txt" />
+        <option value="$PROJECT_DIR$/Character2.txt" />
+        <option value="$PROJECT_DIR$/Buffer.txt" />
         <option value="$PROJECT_DIR$/src/Class.java" />
         <option value="$PROJECT_DIR$/src/CharacterManager.java" />
+        <option value="$PROJECT_DIR$/totalSaves.txt" />
       </list>
     </option>
   </component>
@@ -235,33 +216,19 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Pathfinder Character Manager" />
+              <option name="myItemId" value="PathfinderCharacterManager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Pathfinder Character Manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pathfinder Character Manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pathfinder Character Manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="PathfinderCharacterManager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -512,6 +479,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a03a8182-05a6-4180-84ce-c7fe5327951a" name="Default" comment="" />
@@ -555,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506970368966</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Attempts at bug fixing&#10;Makes changes to the Character manager and Class method">
+      <created>1510946889842</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1510946889842</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -565,32 +542,62 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2247191" sideWeight="0.27287066" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31685394" sideWeight="0.72712934" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1828125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11171875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2247191" sideWeight="0.27287066" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31685394" sideWeight="0.72712934" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17734376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -604,11 +611,20 @@
     <MESSAGE value="This commit gets rid of the &quot;newScore Method not working properly&quot; issue within the code&#10;as well as getting rid of the glitch gave the user error messages when there was no error" />
     <MESSAGE value="Two New Methods&#10;Makes code easier to look at" />
     <MESSAGE value="Adds newRace Method &#10;Adds a new function in the Project to allow users to pick their race of choice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds newRace Method &#10;Adds a new function in the Project to allow users to pick their race of choice" />
+    <MESSAGE value="Attempts at bug fixing&#10;Makes changes to the Character manager and Class method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Attempts at bug fixing&#10;Makes changes to the Character manager and Class method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="18" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Class.java</url>
+          <line>652</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -617,17 +633,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/PCMMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Stats.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -638,6 +643,7 @@
             <element signature="method#Stats#0;class#Stats#0" expanded="false" />
             <element signature="method#newScore#0;class#Stats#0" expanded="false" />
             <element signature="method#setScore#0;class#Stats#0" expanded="false" />
+            <element signature="method#statBonus#0;class#Stats#0" expanded="false" />
             <element signature="method#pointCost#0;class#Stats#0" expanded="false" />
           </folding>
         </state>
@@ -652,13 +658,10 @@
             <element signature="imports" expanded="true" />
             <element signature="method#CharacterManager#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newCharacter#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#managementHub#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#levelUp#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newName#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newStats#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newRace#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newClass#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#loadCharacter#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#charFinder#0;class#CharacterManager#0" expanded="false" />
           </folding>
         </state>
@@ -675,10 +678,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -692,6 +692,7 @@
             <element signature="method#Stats#0;class#Stats#0" expanded="false" />
             <element signature="method#newScore#0;class#Stats#0" expanded="false" />
             <element signature="method#setScore#0;class#Stats#0" expanded="false" />
+            <element signature="method#statBonus#0;class#Stats#0" expanded="false" />
             <element signature="method#pointCost#0;class#Stats#0" expanded="false" />
           </folding>
         </state>
@@ -706,13 +707,10 @@
             <element signature="imports" expanded="true" />
             <element signature="method#CharacterManager#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newCharacter#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#managementHub#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#levelUp#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newName#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newStats#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newRace#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newClass#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#loadCharacter#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#charFinder#0;class#CharacterManager#0" expanded="false" />
           </folding>
         </state>
@@ -729,10 +727,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -746,6 +741,7 @@
             <element signature="method#Stats#0;class#Stats#0" expanded="false" />
             <element signature="method#newScore#0;class#Stats#0" expanded="false" />
             <element signature="method#setScore#0;class#Stats#0" expanded="false" />
+            <element signature="method#statBonus#0;class#Stats#0" expanded="false" />
             <element signature="method#pointCost#0;class#Stats#0" expanded="false" />
           </folding>
         </state>
@@ -760,13 +756,10 @@
             <element signature="imports" expanded="true" />
             <element signature="method#CharacterManager#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newCharacter#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#managementHub#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#levelUp#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newName#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newStats#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newRace#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newClass#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#loadCharacter#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#charFinder#0;class#CharacterManager#0" expanded="false" />
           </folding>
         </state>
@@ -783,10 +776,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -800,6 +790,7 @@
             <element signature="method#Stats#0;class#Stats#0" expanded="false" />
             <element signature="method#newScore#0;class#Stats#0" expanded="false" />
             <element signature="method#setScore#0;class#Stats#0" expanded="false" />
+            <element signature="method#statBonus#0;class#Stats#0" expanded="false" />
             <element signature="method#pointCost#0;class#Stats#0" expanded="false" />
           </folding>
         </state>
@@ -814,13 +805,10 @@
             <element signature="imports" expanded="true" />
             <element signature="method#CharacterManager#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newCharacter#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#managementHub#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#levelUp#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newName#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newStats#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newRace#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newClass#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#loadCharacter#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#charFinder#0;class#CharacterManager#0" expanded="false" />
           </folding>
         </state>
@@ -837,10 +825,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="11" column="49" lean-forward="false" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -854,6 +839,7 @@
             <element signature="method#Stats#0;class#Stats#0" expanded="false" />
             <element signature="method#newScore#0;class#Stats#0" expanded="false" />
             <element signature="method#setScore#0;class#Stats#0" expanded="false" />
+            <element signature="method#statBonus#0;class#Stats#0" expanded="false" />
             <element signature="method#pointCost#0;class#Stats#0" expanded="false" />
           </folding>
         </state>
@@ -868,13 +854,10 @@
             <element signature="imports" expanded="true" />
             <element signature="method#CharacterManager#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newCharacter#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#managementHub#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#levelUp#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newName#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newStats#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newRace#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newClass#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#loadCharacter#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#charFinder#0;class#CharacterManager#0" expanded="false" />
           </folding>
         </state>
@@ -891,10 +874,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -908,6 +888,7 @@
             <element signature="method#Stats#0;class#Stats#0" expanded="false" />
             <element signature="method#newScore#0;class#Stats#0" expanded="false" />
             <element signature="method#setScore#0;class#Stats#0" expanded="false" />
+            <element signature="method#statBonus#0;class#Stats#0" expanded="false" />
             <element signature="method#pointCost#0;class#Stats#0" expanded="false" />
           </folding>
         </state>
@@ -922,13 +903,10 @@
             <element signature="imports" expanded="true" />
             <element signature="method#CharacterManager#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newCharacter#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#managementHub#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#levelUp#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newName#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newStats#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newRace#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newClass#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#loadCharacter#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#charFinder#0;class#CharacterManager#0" expanded="false" />
           </folding>
         </state>
@@ -950,13 +928,10 @@
             <element signature="imports" expanded="true" />
             <element signature="method#CharacterManager#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newCharacter#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#managementHub#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#levelUp#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newName#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newStats#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newRace#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newClass#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#loadCharacter#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#charFinder#0;class#CharacterManager#0" expanded="false" />
           </folding>
         </state>
@@ -972,6 +947,7 @@
             <element signature="method#Stats#0;class#Stats#0" expanded="false" />
             <element signature="method#newScore#0;class#Stats#0" expanded="false" />
             <element signature="method#setScore#0;class#Stats#0" expanded="false" />
+            <element signature="method#statBonus#0;class#Stats#0" expanded="false" />
             <element signature="method#pointCost#0;class#Stats#0" expanded="false" />
           </folding>
         </state>
@@ -981,10 +957,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -992,10 +965,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1008,13 +978,10 @@
             <element signature="imports" expanded="true" />
             <element signature="method#CharacterManager#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newCharacter#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#managementHub#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#levelUp#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newName#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newStats#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newRace#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newClass#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#loadCharacter#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#charFinder#0;class#CharacterManager#0" expanded="false" />
           </folding>
         </state>
@@ -1030,6 +997,7 @@
             <element signature="method#Stats#0;class#Stats#0" expanded="false" />
             <element signature="method#newScore#0;class#Stats#0" expanded="false" />
             <element signature="method#setScore#0;class#Stats#0" expanded="false" />
+            <element signature="method#statBonus#0;class#Stats#0" expanded="false" />
             <element signature="method#pointCost#0;class#Stats#0" expanded="false" />
           </folding>
         </state>
@@ -1039,10 +1007,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="10" column="67" lean-forward="false" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1056,6 +1021,7 @@
             <element signature="method#Stats#0;class#Stats#0" expanded="false" />
             <element signature="method#newScore#0;class#Stats#0" expanded="false" />
             <element signature="method#setScore#0;class#Stats#0" expanded="false" />
+            <element signature="method#statBonus#0;class#Stats#0" expanded="false" />
             <element signature="method#pointCost#0;class#Stats#0" expanded="false" />
           </folding>
         </state>
@@ -1070,13 +1036,10 @@
             <element signature="imports" expanded="true" />
             <element signature="method#CharacterManager#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newCharacter#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#managementHub#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#levelUp#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newName#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newStats#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newRace#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newClass#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#loadCharacter#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#charFinder#0;class#CharacterManager#0" expanded="false" />
           </folding>
         </state>
@@ -1087,65 +1050,18 @@
     <entry file="file://$PROJECT_DIR$/Final-Project-AP-CS-2016/Stats.java" />
     <entry file="file://$PROJECT_DIR$/Character3.txt" />
     <entry file="file://$PROJECT_DIR$/src/Race.java" />
-    <entry file="file://$PROJECT_DIR$/src/PCMMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ClassSkills2.txt" />
-    <entry file="file://$PROJECT_DIR$/totalSaves.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Skill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Character1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Buffer.txt">
+    <entry file="file://$PROJECT_DIR$/src/Skill.java" />
+    <entry file="file://$PROJECT_DIR$/TraitList2.txt" />
+    <entry file="file://$PROJECT_DIR$/Pathfinder Character Manager.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TraitList1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClassSkills1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Character2.txt" />
+    <entry file="file://$PROJECT_DIR$/Buffer.txt" />
     <entry file="file://$PROJECT_DIR$/src/Stats.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1156,6 +1072,7 @@
             <element signature="method#Stats#0;class#Stats#0" expanded="false" />
             <element signature="method#newScore#0;class#Stats#0" expanded="false" />
             <element signature="method#setScore#0;class#Stats#0" expanded="false" />
+            <element signature="method#statBonus#0;class#Stats#0" expanded="false" />
             <element signature="method#pointCost#0;class#Stats#0" expanded="false" />
           </folding>
         </state>
@@ -1163,8 +1080,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="770" column="55" lean-forward="false" selection-start-line="770" selection-start-column="55" selection-end-line="770" selection-end-column="55" />
+        <state relative-caret-position="459">
+          <caret line="651" column="65" lean-forward="false" selection-start-line="651" selection-start-column="65" selection-end-line="651" selection-end-column="65" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="method#classHub#0;class#Class#0" expanded="false" />
@@ -1205,42 +1122,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Character2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TraitList2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CharacterManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="139" column="126" lean-forward="false" selection-start-line="139" selection-start-column="126" selection-end-line="139" selection-end-column="126" />
+        <state relative-caret-position="154">
+          <caret line="103" column="27" lean-forward="true" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
             <element signature="method#CharacterManager#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newCharacter#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#managementHub#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#levelUp#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newName#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newStats#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newRace#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#newClass#0;class#CharacterManager#0" expanded="false" />
-            <element signature="method#loadCharacter#0;class#CharacterManager#0" expanded="false" />
             <element signature="method#charFinder#0;class#CharacterManager#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/PCMMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TraitList1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassSkills1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Character1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/totalSaves.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

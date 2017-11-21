@@ -42,25 +42,21 @@ public class CharacterManager {
     }
 
     private void managementHub(Scanner currentChar, Scanner traitListScan, Scanner classSkillsScan, int fileNum) throws FileNotFoundException {
-        PrintStream buffer = new PrintStream(new File("Buffer.txt"));
-        while (traitListScan.hasNext()){
-            buffer.println(traitListScan.nextLine());
-        }
-        Scanner bufferScan = new Scanner("Buffer.txt");
+
         PrintStream traitList = new PrintStream(new File("TraitList" + fileNum + ".txt"));
         PrintStream classSkills = new PrintStream(new File("ClassSkills" + fileNum + ".txt"));
-        while (bufferScan.hasNext()){
-            traitList.println(bufferScan.nextLine());
-        }
         System.out.print("Do you want to view your Character Sheet, level up or exit the program? (Please use keywords view, level, or exit) ");
         int loop = 0;
         while (loop == 0) {
             String response = console.nextLine();
             if (response.toLowerCase().equals("view")) {
-                loop = charSheet(currentChar, traitListScan, classSkillsScan, traitList, classSkills);
+                charSheet(currentChar, traitList, classSkills, fileNum);
+                currentChar = new Scanner(new File("Character" + fileNum + ".txt"));
+
             }
             else if (response.toLowerCase().equals("level")) {
-                loop = levelUp(currentChar, traitList, classSkills, fileNum);
+                levelUp(currentChar, fileNum);
+                currentChar = new Scanner(new File("Character" + fileNum + ".txt"));
             }
             else if (response.toLowerCase().equals("exit")) {
                 loop++;
@@ -73,7 +69,7 @@ public class CharacterManager {
         }
     }
 
-    private int levelUp(Scanner currentChar, PrintStream traitList, PrintStream classSkills, int fileNum) throws FileNotFoundException {
+    private void levelUp(Scanner currentChar, int fileNum) throws FileNotFoundException {
         String name = currentChar.nextLine();
         int level = (currentChar.nextInt() + 1);
         String race = currentChar.next();
@@ -115,19 +111,19 @@ public class CharacterManager {
         PrintStream charLevelUp = new PrintStream(new File("Character" + fileNum + ".txt"));
         charLevelUp.println(name);
         charLevelUp.println(level);
-        charLevelUp.print(race + " " + currentClass);
+        charLevelUp.println(race + " " + currentClass);
         for (int i = 0; i < 6; i++){
             charLevelUp.println(midStats[i]);
         }
-        classy.classHub(traitList, level, Ability, classSkills, "traits");
         System.out.println("Your character has been successfully leveled up!");
         System.out.println("Now do you want to view your character, level up again or exit the program? (Please use keywords view, level or exit)");
-        return 0;
+
     }
 
-    private int charSheet(Scanner currentChar, Scanner traitListScan, Scanner classSkillsScan, PrintStream traitList, PrintStream classSkills){
+    private void charSheet(Scanner currentChar, PrintStream traitList, PrintStream classSkills, int fileNum) throws FileNotFoundException {
         System.out.println("Character Name: " + currentChar.nextLine());
         int level = currentChar.nextInt();
+        System.out.println("Level: " + level);
         System.out.print("Race & Class: " + currentChar.next() + " ");
         String currentClass = currentChar.next();
         System.out.println(currentClass);
@@ -135,31 +131,33 @@ public class CharacterManager {
         for (int i = 0; i < 6; i++){
             Ability.setStat(i, currentChar.nextInt());
         }
+        classy.classHub(traitList, level, Ability, classSkills, "traits");
+        classy.classHub(traitList, level, Ability, classSkills, "skills");
+        classy.classHub(traitList, level, Ability, classSkills, "ability");
+        Scanner traitListScan = new Scanner(new File("TraitListScan" + fileNum + ".txt"));
+        Scanner classSkillsScan = new Scanner(new File("ClassSkillsScan" + fileNum + ".txt"));
         System.out.println("Strength: " + Ability.getStat(0) + " Ability Modifier: " + Ability.statBonus(Ability.getStat(0)));
         System.out.println("Dexterity: " + Ability.getStat(1) + " Ability Modifier: " + Ability.statBonus(Ability.getStat(1)));
         System.out.println("Constitution: " + Ability.getStat(2) + " Ability Modifier: " + Ability.statBonus(Ability.getStat(2)));
         System.out.println("Intelligence: " + Ability.getStat(3) + " Ability Modifier: " + Ability.statBonus(Ability.getStat(3)));
         System.out.println("Wisdom: " + Ability.getStat(4) + " Ability Modifier: " + Ability.statBonus(Ability.getStat(4)));
         System.out.println("Charisma: " + Ability.getStat(5) + " Ability Modifier: " + Ability.statBonus(Ability.getStat(5)));
-        classy.classHub(traitList, level, Ability, classSkills, "traits");
-        classy.classHub(traitList, level, Ability, classSkills, "skills");
         System.out.println("Hit Points: " + classy.getHitPoints());
         System.out.println("Base Attack Bonus: " + classy.getAttackBonus());
-        System.out.println("Fortitude Save: " + classy.getFort() + Ability.statBonus(Ability.getStat(2)));
-        System.out.println("Reflex Save: " + classy.getRef() + Ability.statBonus(Ability.getStat(1)));
-        System.out.println("Will Save: " + classy.getWill() + Ability.statBonus(Ability.getStat(4)));
+        System.out.println("Fortitude Save: " + (classy.getFort() + Ability.statBonus(Ability.getStat(2))));
+        System.out.println("Reflex Save: " + (classy.getRef() + Ability.statBonus(Ability.getStat(1))));
+        System.out.println("Will Save: " + (classy.getWill() + Ability.statBonus(Ability.getStat(4))));
         System.out.println("Total Skill Ranks Available: " + (classy.getSkillRanks() + Ability.statBonus(Ability.getStat(3))*level));
         System.out.println("Skill Proficiencies: ");
-        while (traitListScan.hasNext()){
-            System.out.println("    " + traitListScan.nextLine());
-        }
-        System.out.println("Feats Available: " + level/2);
-        System.out.println("Character Traits: ");
         while (classSkillsScan.hasNext()){
             System.out.println("    " + classSkillsScan.nextLine());
         }
+        System.out.println("Feats Available: " + level/2);
+        System.out.println("Character Traits: ");
+        while (traitListScan.hasNext()){
+            System.out.println("    " + traitListScan.nextLine());
+        }
         System.out.print("Now do you want to view your character again, level up or exit the program? (Please use keywords view, level or exit) ");
-        return 0;
     }
 
     // Assigns a name to new character and makes sure that there is no other character with that name

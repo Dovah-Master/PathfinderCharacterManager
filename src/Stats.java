@@ -12,6 +12,7 @@ public class Stats{
             stats[i] = 10;
         }
     }
+    //test 11/2
     //Lets people choose what they want their ability score set to
     public void newScore(int points) throws FileNotFoundException {
         int newPoints = points;
