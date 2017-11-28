@@ -49,22 +49,23 @@ public class CharacterManager {
         int loop = 0;
         while (loop == 0) {
             String response = console.nextLine();
-            if (response.toUpperCase().charAt(0) == 'V') {
+            if (response.toLowerCase().equals("view")) {
                 charSheet(currentChar, traitList, classSkills, fileNum);
                 currentChar = new Scanner(new File("Character" + fileNum + ".txt"));
-                loadCharacter();
+
             }
-            else if (response.toUpperCase().charAt(0) == 'L') {
+            else if (response.toLowerCase().equals("level")) {
                 levelUp(currentChar, fileNum);
                 currentChar = new Scanner(new File("Character" + fileNum + ".txt"));
             }
-            else if (response.toUpperCase().charAt(0) == 'E') {
+            else if (response.toLowerCase().equals("exit")) {
                 loop++;
                 System.out.println("Goodbye");
             }
             else {
                 System.out.println("Sorry I didn't catch that, please use keywords view, level or exit");
             }
+
         }
     }
 
@@ -99,7 +100,7 @@ public class CharacterManager {
                 } else if (response.toUpperCase().equals("WIS")) {
                     loop++;
                     midStats[4] = ( midStats[4] + 1 );
-                } else if (response.toUpperCase().equals("CH")) {
+                } else if (response.toUpperCase().equals("CHA")) {
                     loop++;
                     midStats[5] = ( midStats[5] + 1 );
                 } else {
@@ -114,11 +115,11 @@ public class CharacterManager {
         for (int i = 0; i < 6; i++){
             charLevelUp.println(midStats[i]);
         }
-        System.out.println("Your character has been successfully leveled up! Currently level " + level);
+        System.out.println("Your character has been successfully leveled up!");
         System.out.println("Now do you want to view your character, level up again or exit the program? (Please use keywords view, level or exit)");
+
     }
 
-    // this is what should be printed when asked to see character
     private void charSheet(Scanner currentChar, PrintStream traitList, PrintStream classSkills, int fileNum) throws FileNotFoundException {
         System.out.println("Character Name: " + currentChar.nextLine());
         int level = currentChar.nextInt();
@@ -148,7 +149,7 @@ public class CharacterManager {
         System.out.println("Will Save: " + (classy.getWill() + Ability.statBonus(Ability.getStat(4))));
         System.out.println("Total Skill Ranks Available: " + (classy.getSkillRanks() + Ability.statBonus(Ability.getStat(3))*level));
         System.out.println("Skill Proficiencies: ");
-        while (classSkillsScan.hasNext()) {
+        while (classSkillsScan.hasNext()){
             System.out.println("    " + classSkillsScan.nextLine());
         }
         System.out.println("Feats Available: " + level/2);
@@ -185,22 +186,22 @@ public class CharacterManager {
         while (loop == 0){
             System.out.print("Are you playing on low, standard, high, or epic fantasy? ");
             String response = console.next();
-            if (response.toUpperCase().charAt(0) == 'L'){
+            if (response.toLowerCase().equals("low")){
                 loop++;
                 points = 10;
                 Ability.newScore(points);
             }
-            else if (response.toUpperCase().charAt(0) == 'S') {
+            else if (response.toLowerCase().equals("standard")){
                 loop++;
                 points = 15;
                 Ability.newScore(points);
             }
-            else if (response.toUpperCase().charAt(0) == 'H'){
+            else if (response.toLowerCase().equals("high")){
                 loop++;
                 points = 20;
                 Ability.newScore(points);
             }
-            else if (response.toUpperCase().charAt(0) == 'E'){
+            else if (response.toLowerCase().equals("epic")){
                 loop++;
                 points = 25;
                 Ability.newScore(points);
@@ -453,14 +454,7 @@ public class CharacterManager {
                 }
             }
             if (loop == 0) {
-                System.out.println("Sorry I couldn't find any character with that name. Would you like to search again?");
-                String answerTemp = console.nextLine();
-                String answer = answerTemp.toLowerCase();
-                if (answer.charAt(0) == 'y') {
-                    loadCharacter();
-                } else {
-                    PCMMain.saveOrLoad();
-                }
+                System.out.println("Sorry I couldn't find any character with that name");
             }
         }
     }
