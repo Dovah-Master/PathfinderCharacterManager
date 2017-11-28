@@ -69,7 +69,7 @@ public class Stats{
         }
     }
 
-    //Sets an array to a given value and calculates how much ability points are used up
+    //Sets an array to a given value and calculates how much abuility points are used up
     public int setScore(int stat, int points) throws FileNotFoundException {
         points = points + pointCost(stats[stat]);
         System.out.println("What do you want to set your stat to? Pick any value between 7-18");
